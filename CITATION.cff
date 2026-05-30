@@ -11,6 +11,5 @@ version: "0.2.2"
 date-released: "2026-05-30"
 license: MIT
 repository-code: "https://github.com/pierpaolopalazzo/ferranti-pipeline"
-# Fill after Zenodo release:
-# doi: "10.5281/zenodo.XXXXXXX"
-# url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.20467089"
+url: "https://doi.org/10.5281/zenodo.20467089"
