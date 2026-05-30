@@ -1,0 +1,149 @@
+# Ferranti pipeline v3 plotting settings.
+# Units are inches for figure sizes and points for font/line widths.
+
+[output]
+# Nickname is derived from this file's name: settings-<nickname>.toml.
+# Output goes to <dir>/<nickname>/. To add another preset, just create a new
+# settings-<other>.toml in this directory.
+dir = "figures/v3"
+dpi = 300
+formats = ["png", "json"]
+
+[ieee]
+# IEEEtran two-column papers usually use ~3.5 in for a single column
+# and ~7.16 in for a double-column figure.
+single_column_width = 3.50
+double_column_width = 7.16
+
+[style]
+font_family = "serif"
+font_size = 9
+axes_label_size = 9
+axes_title_size = 8
+legend_font_size = 8
+tick_label_size = 8
+line_width = 1.2
+thick_line_width = 1.8
+
+[colors]
+hilbert = "m"
+stft = "b"
+zero_cross = "g"
+pll = "orange"
+pdf = "m"
+freq_rms = "b"
+rocof = "g"
+event = "r"
+nominal = "k"
+threshold = "r"
+target_band = "yellow"
+
+# Differentiated linestyles so the four estimators remain distinguishable
+# in black-and-white printing.
+[linestyles]
+hilbert = "-"
+stft = "--"
+zero_cross = ":"
+pll = "-."
+
+[figures.001]
+width = "double"
+height = 4.20
+line_width = 1.2
+thick_line_width = 2.0
+
+[figures.002]
+width = "single"
+height = 2.55
+line_width = 1.5
+thick_line_width = 2.0
+
+[figures.003]
+width = "double"
+height = 6.50
+line_width = 1.0
+thick_line_width = 1.5
+
+[figures.004]
+width = "double"
+height = 5.20
+line_width = 1.2
+thick_line_width = 2.0
+show_titles = false
+show_panel_labels = true
+panel_label_x = 0.02
+panel_label_y = 0.92
+panel_label_size = 9
+
+[figures.005]
+width = "double"
+height = 5.80
+line_width = 1.3
+thick_line_width = 1.6
+show_titles = false
+show_panel_labels = true
+panel_label_x = 0.02
+panel_label_y = 0.92
+panel_label_size = 9
+
+[figures.006]
+# Extension 1.F — latency breakdown.
+# Two-panel double-column figure: step response (left) and stage breakdown (right).
+width = "double"
+height = 3.35
+line_width = 1.2
+thick_line_width = 1.8
+
+[figures.007]
+width = "double"
+height = 3.35
+line_width = 1.2
+thick_line_width = 1.8
+show_titles = false
+show_panel_labels = true
+panel_label_x = 0.02
+panel_label_y = 0.92
+panel_label_size = 9
+
+[figures.008]
+width = "double"
+height = 3.35
+line_width = 1.2
+thick_line_width = 1.8
+show_titles = false
+show_panel_labels = true
+panel_label_x = 0.02
+panel_label_y = 0.92
+panel_label_size = 9
+
+[figures.009]
+# Extension 1.M - threshold calibration.
+width = "double"
+height = 3.35
+line_width = 1.2
+thick_line_width = 1.8
+marker_size = 6
+grid_alpha = 0.30
+band_alpha = 0.15
+event_alpha = 0.70
+show_titles = false
+show_panel_labels = true
+panel_label_x = 0.02
+panel_label_y = 0.92
+panel_label_size = 9
+bar_label_size = 9
+
+[figures.010]
+# Extension 1.H - ROC event-level + detection vs SNR.
+width = "double"
+height = 3.50
+line_width = 1.2
+thick_line_width = 1.8
+marker_size = 5
+grid_alpha = 0.30
+show_titles = false
+show_panel_labels = true
+panel_label_x = 0.02
+panel_label_y = 0.92
+panel_label_size = 9
+bar_label_size = 8

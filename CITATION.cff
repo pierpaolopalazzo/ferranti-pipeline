@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Ferranti pipeline: simulation and detection of Ferranti-effect transients"
+type: software
+authors:
+  - family-names: "Palazzo"
+    given-names: "Pierpaolo"
+    email: "ppalazzo@gmail.com"
+    orcid: "https://orcid.org/0009-0004-1426-4004"
+version: "0.2.2"
+date-released: "2026-05-30"
+license: MIT
+repository-code: "https://github.com/pierpaolopalazzo/ferranti-pipeline"
+# Fill after Zenodo release:
+# doi: "10.5281/zenodo.XXXXXXX"
+# url: "https://doi.org/10.5281/zenodo.XXXXXXX"
